@@ -1,5 +1,5 @@
 # Model From Huggingface Diffusers
-pretrained_model_path: ""
+pretrained_model_path: "./models/StableDiffusion"
 
 # Model in CKPT format. This is the CKPT that you download from CivitAI or use in A111 Comfy, etc.
 # In most cases, leave this blank.
