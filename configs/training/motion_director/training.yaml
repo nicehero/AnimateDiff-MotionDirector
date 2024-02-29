@@ -34,7 +34,7 @@ dataset_types: ["single_video"]
 cfg_random_null_text_ratio: 0
 
 train_data:
-  manual_sample_size: False
+  manual_sample_size: True
   sample_size: [256, 448]
   # The width and height in which you want your training data to be resized to.
   width: 256
@@ -82,7 +82,7 @@ use_motion_lora_format: True
 lora_rank: 32
 lora_unet_dropout: 0.1
 single_spatial_lora: True
-train_sample_validation: False
+train_sample_validation: True
 unet_checkpoint_path: ""
 
 learning_rate:    5e-4
