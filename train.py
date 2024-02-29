@@ -972,6 +972,7 @@ def main(
                             if len(prompt) == 0:
                                 prompt = batch['text_prompt']
                             print(prompt)
+                            print(f'gen_size:{width}x{height}')
                             if not image_finetune:
                                 sample = validation_pipeline(
                                     prompt,
